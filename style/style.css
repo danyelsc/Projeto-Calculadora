@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* classes de posicionamento */
+ 
+.flex{
+    display: flex;
+}
+.flex-a-center{
+    align-items: center;
+}
+.flex-j-center{
+    justify-content:center;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+/* inicio do meu corpo do css */
+
+.calculator{
+    margin:45px 0 20px 0;
+}
+.visor{
+    padding: 15px 30px 15px 30px;
+    margin: 50px 0 20px 0;
+    border: solid 1px #000000;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.buttons{
+    border: solid 1px #000000;
+    border-radius: 2px;
+    padding: 20px 24px 20px 24px;
+    font-size: 15px;
+}
+.button-0{
+    border: solid 1px #000000;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 15px 60px 15px 60px;
+}
+
+
+
