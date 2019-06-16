@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Pacifico&display=swap" rel="stylesheet">
     <title>calculadora</title>
 </head>
-
 <body>
-    <main>
+    <main class="flex flex-j-center flex-column">
         <h1 class="calculator">CALCULATOR</h1>
-
         <form name="calculadora" class="flex flex-j-center flex-column">
             <div>
                 <input name="visor" class="visor" type="text">
@@ -23,21 +20,19 @@
                 <input class="buttons" type="button" value="+" onclick="add ( value )">
                 <input class="buttons" type="button" value="-" onclick="add ( value )">
                 <input class="buttons" type="button" value="*" onclick="add ( value )">
-                <input class="buttons" type="button" value="#" onclick="add ( value )">
+                <input class="buttons" type="button" value="/" onclick="add ( value )">
             </div>
-
             <div class="div-button">
                 <input class="buttons" type="button" value="7" onclick="add ( value )">
                 <input class="buttons" type="button" value="8" onclick="add ( value )">
                 <input class="buttons" type="button" value="9" onclick="add ( value )">
-                <input class="buttons" type="button" value="/" onclick="add ( value )">
+                <input class="buttons" type="button" value="e" onclick="add (value)">
             </div>
-
             <div class="div-button">
                 <input class="buttons" type="button" value="4" onclick="add ( value )">
                 <input class="buttons" type="button" value="5" onclick="add ( value )">
                 <input class="buttons" type="button" value="6" onclick="add ( value )">
-                <input class="buttons-c" type="button" value="c" onclick="reset()">
+                <input class="buttons" type="button" value="c" onclick="reset()">
             </div>
             <div class="div-button">
                 <input class="buttons" type="button" value="1" onclick="add ( value )">
