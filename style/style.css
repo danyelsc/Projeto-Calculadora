@@ -23,10 +23,11 @@ body{
     background-color: #efefef;
 }
 .calculator{
-    margin: 45px 0 20px -6px;
+    margin: 45px 15px 20px 11px;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 34px;
+    letter-spacing: 4px;
 }
 form{
     border: solid 1px #180a0a63;
