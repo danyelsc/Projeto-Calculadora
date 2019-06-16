@@ -7,44 +7,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
     <script src="./style/script.js"></script>
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Pacifico&display=swap" rel="stylesheet">
+    <title>calculadora</title>
 </head>
 
 <body>
-    <h1 class="calculator flex flex flex-j-center">CALCULATOR</h1>
-    <div class="container-visor flex flex-j-center">
-        <input class="visor" type="text">
-    </div>
-    <form class="teclado flex flex-j-center flex-column flex-a-center">
-        <div>
-            <input class="buttons" type="button" value="+">
-            <input class="buttons" type="button" value="-">
-            <input class="buttons" type="button" value="X">
-            <input class="buttons" type="button" value="÷">
-        </div>
-        <div>
-            <input class="buttons" type="button" value="7">
-            <input class="buttons" type="button" value="8">
-            <input class="buttons" type="button" value="9">
-            <input class="buttons" type="button" value="c">
-        </div>
-        <div>
-            <input class="buttons" type="button" value="4">
-            <input class="buttons" type="button" value="5">
-            <input class="buttons" type="button" value="6">
-            <input class="buttons" type="button" value="%">
-        </div>
-        <div>
-            <input class="buttons" type="button" value="1">
-            <input class="buttons" type="button" value="2">
-            <input class="buttons" type="button" value="3">
-            <input class="buttons" type="button" value=".">
-        </div>
-        <div>
-            <input class="button-0" type="button" value="0">
-            <input class="buttons" type="button" value="c">
-        </div>
-    </form>
+    <main>
+        <h1 class="calculator">CALCULATOR</h1>
+
+        <form name="calculadora" class="flex flex-j-center flex-column">
+            <div>
+                <input name="visor" class="visor" type="text">
+            </div>
+            <div class="div-button">
+                <input class="buttons" type="button" value="+" onclick="add ( value )">
+                <input class="buttons" type="button" value="-" onclick="add ( value )">
+                <input class="buttons" type="button" value="*" onclick="add ( value )">
+                <input class="buttons" type="button" value="#" onclick="add ( value )">
+            </div>
+
+            <div class="div-button">
+                <input class="buttons" type="button" value="7" onclick="add ( value )">
+                <input class="buttons" type="button" value="8" onclick="add ( value )">
+                <input class="buttons" type="button" value="9" onclick="add ( value )">
+                <input class="buttons" type="button" value="/" onclick="add ( value )">
+            </div>
+
+            <div class="div-button">
+                <input class="buttons" type="button" value="4" onclick="add ( value )">
+                <input class="buttons" type="button" value="5" onclick="add ( value )">
+                <input class="buttons" type="button" value="6" onclick="add ( value )">
+                <input class="buttons-c" type="button" value="c" onclick="reset()">
+            </div>
+            <div class="div-button">
+                <input class="buttons" type="button" value="1" onclick="add ( value )">
+                <input class="buttons" type="button" value="2" onclick="add ( value )">
+                <input class="buttons" type="button" value="3" onclick="add ( value )">
+                <input class="buttons" type="button" value="." onclick="add ( value )">
+            </div>
+            <div class="div-button">
+                <input class="buttons" type="button" value="0" onclick="add ( value )">
+                <input class="button-igual" type="button" value="=" onclick="resultado()">
+            </div>
+        </form>
+    </main>
 </body>
 
 </html>
