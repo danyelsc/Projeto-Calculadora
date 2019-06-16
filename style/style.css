@@ -41,6 +41,7 @@ form{
     border: solid 1px #000000;
     border-radius: 2px;
     font-size: 15px;
+    background-color: #efefef;
 }
 .div-button{
     margin: 0 0 3px 10px;
@@ -53,12 +54,14 @@ form{
     font-size: 15px;
     height: 60px;
     width: 60px;
+    background-color:#efefef; 
 }
 .button-igual{
     border: solid 1px #000000;
     border-radius: 2px;
     padding: 20px 89px 20px 89px;
     font-size: 15px;
+    background-color: #efefef;
 }
 .visor:focus, .buttons:focus, .buttons-c:focus, .button-igual:focus{
     outline: none;
