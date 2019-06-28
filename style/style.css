@@ -33,11 +33,11 @@ form{
     border: solid 1px #180a0a63;
     text-align: center;
     padding-bottom: 60px;
-    background-image: url(../style/img/istockphoto-504855283-1024x1024.jpg);
+    background-image: url("../img/istockphoto-504855283-1024x1024.jpg");
    
 }
 .visor{
-    padding: 15px 26px 15px 28px;
+    padding: 15px 19px 15px 42px;
     margin: 50px 0px 20px 6px;
     border: solid 1px #000000;
     border-radius: 2px;
@@ -74,7 +74,7 @@ form{
         font-size: 60px;
     }
     .visor{
-        padding: 20px 40px 20px 40px;
+        padding: 20px 42px 20px 49px;
        
     }
     .buttons{
