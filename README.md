@@ -1,2 +1,2 @@
-# projeto-calculadora
-javascript
+# Projeto-Calculadora
+JS
