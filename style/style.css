@@ -23,16 +23,18 @@ body{
     background-color: #efefef;
 }
 .calculator{
-    margin: 45px 15px 20px 11px;
+    /* margin: 45px 15px 20px 11px; */
+    height: 10vh;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
     letter-spacing: 4px;
 }
 form{
     border: solid 1px #180a0a63;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    height: 88vh;
     background-image: url("../img/istockphoto-504855283-1024x1024.jpg");
    
 }
@@ -68,10 +70,14 @@ form{
     outline: none;
 }
 
-@media screen and (min-width:786px){
-
+@media screen and (min-width: 786px){
     .calculator{
-        font-size: 60px;
+        font-size: 30px;
+        height: 15vh;
+    }
+    form{
+        padding-bottom: 12px;
+        height: 83vh;       
     }
     .visor{
         padding: 20px 42px 20px 49px;
